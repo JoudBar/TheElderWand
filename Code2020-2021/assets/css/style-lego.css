@@ -6,8 +6,8 @@
   --header-height: 3rem;
 
   /*========== Colors ==========*/
-  --first-color: #b94a0a;
-  --first-color-alt: #da6d08;
+  --first-color: #e6b956;
+  --first-color-alt: #e6b956;
   --title-color: #393939;
   --text-color: #707070;
   --text-color-light: #A6A6A6;
@@ -118,7 +118,7 @@ img{
 
 .section-title{
   font-size: var(--h1-font-size);
-  color: var(--title-color);
+  color: var(--first-color);
   margin-bottom: var(--mb-3);
 }
 
@@ -169,7 +169,7 @@ img{
     padding: 1.5rem 0 1rem;
     text-align: center;
     background-color: var(--body-color);
-    transition: .4s;
+    transition: .3s;
     box-shadow: 0 4px 4px rgba(0,0,0,.1);
     border-radius: 0 0 1rem 1rem;
     z-index: var(--z-fixed);
@@ -180,12 +180,16 @@ img{
   margin-bottom: var(--mb-2);
 }
 
+/* LOGO VAN DE HEADER */
 .nav__piclogo{
-  max-width: 3rem;
+  max-width: 9rem;
+  height: 60px;
+  margin-top: 10px;
 }
 
+/* HOOFT NAV ELEMENTEN */
 .nav__link, .nav__logo, .nav__toggle{
-  color: var(--text-color);
+  color: var(--first-color);
   font-weight: var(--font-medium);
 }
 
@@ -231,10 +235,10 @@ img{
   justify-content: center;
   align-items: center;
   padding: .3rem;
-  background: rgba(6,156,84,.5);
+  background: var(--first-color);
   border-radius: .4rem;
   z-index: var(--z-tooltip);
-  transition: .4s;
+  transition: .3s;
   visibility: hidden;
 }
 
@@ -454,7 +458,7 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 
 .footer__title{
   font-size: var(--h2-font-size);
-  color: var(--title-color);
+  color: var(--first-color);
   margin-bottom: var(--mb-2);
 }
 
@@ -492,7 +496,7 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 
   .about__img, .app__img{
     width: 380px;
-    max-height: 300px;
+    max-height: 400px;
     order: -1;
   }
 
@@ -568,7 +572,7 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
   }
 
   .home__img{
-    width: 378px;
+    width: 578px;
   }
 
   .about__container,
@@ -612,7 +616,7 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
     padding: 10px;
     min-width: 200px;
     margin-bottom: 50px;
-    transition: transform 0.5s;
+    transition: transform 0.3s;
 }
 
     .col-4 img {
@@ -681,7 +685,7 @@ small {
         padding: 40px 20px;
         box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
         cursor: pointer;
-        transition: transform 0.5s;
+        transition: transform 0.3s;
     }
 
         .testimonial .col-3 img {
@@ -782,7 +786,7 @@ h1.zero:before{
   position: absolute;
   top: -1000px;
   left: 20%;
-  transition: 0.5s;
+  transition: 0.3s;
   overflow-y: auto;
   margin: auto;
   padding: 1%;
@@ -937,8 +941,7 @@ background: radial-gradient(circle, rgba(56,129,233,1) 0%, rgba(58,218,199,1) 82
 }
 
 
-/*
-CONTACT*/
+/*CONTACT*/
 .Contact-section {
 
   padding: 40px;
@@ -946,6 +949,10 @@ CONTACT*/
 .Contact-section h1 {
   text-align: center;
   color:white;
+}
+.Contact-h5{
+  color: var(--first-color);
+  margin-left: 35rem;
 }
 .Border {
   width: 500px;
@@ -967,14 +974,16 @@ CONTACT*/
   margin: 16px 0;
   border: 0;
   border-radius: 10px 10px 10px 10px;
-  background: rgb(255, 255, 255);
+  background: rgb(218, 180, 124);
   padding: 20px 40px;
   outline: none;
   color: rgb(0, 0, 0);
-  transition: 0,5s;
+  transition: 0,3s;
 }
+
+/*VOOR DE GLOW ROND DE CONTACT*/
 .contact-from-text:focus {
-  box-shadow: 0 0 10px 4px rgb(163, 220, 250);
+  box-shadow: 0 0 10px 4px rgb(142, 82, 50);
 }
 textarea.contact-from-text {
   resize: none;
