@@ -1,5 +1,5 @@
 
-document.getElementById("lordbutton").addEventListener("click",()=>{
+document.getElementById("legobutton").addEventListener("click",()=>{
     document.querySelector(".popup3").style.display = "flex";
 
 });
@@ -9,6 +9,16 @@ document.getElementById("fifabutton").addEventListener("click",()=>{
 });
 
 document.getElementById("fortnitebutton").addEventListener("click",()=>{
+    document.querySelector(".popup3").style.display = "flex";
+
+});
+
+document.getElementById("magicbutton").addEventListener("click",()=>{
+    document.querySelector(".popup3").style.display = "flex";
+
+});
+
+document.getElementById("bankbutton").addEventListener("click",()=>{
     document.querySelector(".popup3").style.display = "flex";
 
 });

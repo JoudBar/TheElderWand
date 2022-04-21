@@ -10,7 +10,7 @@
   --first-color-alt: #e6b956;
   --title-color: #393939;
   --text-color: #707070;
-  --text-color-light: #A6A6A6;
+  --text-color-light: #a6a6a6;
   --body-color: #FBFEFD;
   --container-color: #FFFFFF;
 
@@ -235,10 +235,10 @@ img{
   justify-content: center;
   align-items: center;
   padding: .3rem;
-  background: var(--first-color);
+  background: #e6b956;
   border-radius: .4rem;
   z-index: var(--z-tooltip);
-  transition: .3s;
+  transition: .4s;
   visibility: hidden;
 }
 
@@ -452,7 +452,7 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 
 .footer__social{
   font-size: 1.5rem;
-  color: var(--title-color);
+  color: #dbb47d;
   margin-right: var(--mb-2);
 }
 
@@ -1026,7 +1026,7 @@ background: radial-gradient(circle, rgba(56,129,233,1) 0%, rgba(58,218,199,1) 82
   text-align: center;
 }
 .button{
-  margin-left: 46%;
+  margin-left: 4rem;
   margin-top: 1rem;
   
 }
