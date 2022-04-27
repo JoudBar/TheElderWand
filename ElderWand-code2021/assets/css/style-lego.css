@@ -289,6 +289,32 @@ img{
   border-radius: .5rem;
   transition: .3s;
 }
+.button-home{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #FFF;
+  padding: .75rem 1rem;
+  border-radius: .5rem;
+  transition: .3s;
+}
+.button-contact{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #FFF;
+  padding: .75rem 1rem;
+  border-radius: .5rem;
+  transition: .3s;
+  margin-left: 45rem;
+}
+.button-account{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #FFF;
+  padding: .75rem 1rem;
+  border-radius: .5rem;
+  transition: .3s;
+  margin-left: 42rem;
+}
 
 .button:hover{
   background-color: var(--first-color-alt);
@@ -1047,7 +1073,7 @@ background: radial-gradient(circle, rgba(56,129,233,1) 0%, rgba(58,218,199,1) 82
 }
 /*CONTACT*/
 .Contact-section {
-
+  align-items: center;
   padding: 40px;
 }
 .Contact-section h1 {
@@ -1056,7 +1082,7 @@ background: radial-gradient(circle, rgba(56,129,233,1) 0%, rgba(58,218,199,1) 82
 }
 .Contact-h5{
   color: var(--first-color);
-  margin-left: 35rem;
+  margin-left: 38rem;
 }
 .Border {
   width: 500px;
@@ -1073,8 +1099,7 @@ background: radial-gradient(circle, rgba(56,129,233,1) 0%, rgba(58,218,199,1) 82
 }
 .contact-from-text {
   display: block;
- 
-  width: 100%;
+  width: 50%;
   text-align: center;
   box-sizing: border-box;
   margin: 16px 0;
