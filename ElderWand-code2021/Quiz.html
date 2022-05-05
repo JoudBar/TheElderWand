@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="/ElderWand-code2021/assets/css/Quiz.css">
+    
+    <title>TheElderWand</title>
+</head>
+
+<body>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </a>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="./TheOne.html"><img src="/ElderWand-code2021/assets/img/Logo.png" alt="" class="nav__piclogo"></a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="TheOne.html" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="personages.html" class="nav__link">Personages</a></li>
+                    <li class="nav__item"><a href="#" target="_blank" class="nav__link">FAQ</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+                    <li class="nav__item"><a href="inloggen.html" class="nav__link">Inloggen</a></li>
+
+                    <!--========== VOOR DE THEMA TE VERANDEREN DARK/LIGHT ==========-->
+                    <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+
+    <!--========== Quiz ==========-->
+
+    <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+            <h2 id="question">Question text</h2>
+            <ul>
+                <h3>mogelijke character</h3>
+                <li>
+                    <input type="radio" name="awnser" id="a" class="awnser">
+                    <label for="a" id="a_text">Awnser</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="awnser" id="b" class="awnser">
+                    <label for="b" id="b_text">Awnser</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="awnser" id="c" class="awnser">
+                    <label for="c" id="c_text">Awnser</label>
+                </li>
+                <br>
+                <h3>mogelijke film</h3>
+                <li>
+                    <input type="radio" name="awnser" id="d" class="awnser">
+                    <label for="d" id="d_text">Awnser</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="awnser" id="e" class="awnser">
+                    <label for="e" id="e_text">Awnser</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="awnser" id="f" class="awnser">
+                    <label for="f" id="f_text">Awnser</label>
+                </li>
+            </ul>
+        </div>
+        <button id="submit">volgende</button>
+        
+    </div>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
