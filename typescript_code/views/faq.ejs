@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="/css/style-lego.css" />
+
+    <title>Themadienst Water Flow</title>
+  </head>
+  <body>
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-chevron-up scrolltop__icon"></i>
+    </a>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="TheOne.html" class="nav__logo">TheOne</a>
+        <img
+          src="/ElderWand//img/LOFR-removebg-preview.png"
+          alt=""
+          class="nav__piclogo"
+        />
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="http://localhost:3000/" class="nav__link active-link"
+                >Home</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="http://localhost:3000/faq" class="nav__link">FAQ</a>
+            </li>
+            <li class="nav__item">
+              <a href="http://localhost:3000/personages" class="nav__link"
+                >Personages</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="http://localhost:3000/contact" class="nav__link"
+                >Contact</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="http://localhost:3000/inloggen" class="nav__link"
+                >Inloggen</a
+              >
+            </li>
+
+            <!--========== VOOR DE THEMA TE VERANDEREN DARK/LIGHT ==========-->
+            <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--========== FAQ ==========-->
+    <div class="faq-section">
+      <h5 class="faq-h5">FAQ</h5>
+      <form class="faq-form" action="index.html" method="post">
+        <details class="faq-from-text">
+          <summary>how to start the quize</summary>
+          <div class="faq-content">
+            go to the homepage en there will be a button to start the quize. ore
+            <a href="http://localhost:3000/quize">click here</a>.
+          </div>
+        </details>
+        <details class="faq-from-text">
+          <summary>how do i change licht/dark mode</summary>
+          <div class="faq-content">
+            in the upper light corner there is an icon of a moon or a sun
+            depends in what mode it is.
+            <i class="bx bx-moon change-theme" id="theme-button"></i>
+          </div>
+        </details>
+        <details class="faq-from-text">
+          <summary>how to start the quize</summary>
+          <div class="faq-content">
+            go to the homepage en there will be a button to start the quize. ore
+            <a href="http://localhost:3000/quize">click here</a>.
+          </div>
+        </details>
+        <details class="faq-from-text">
+          <summary>Details</summary>
+          <div class="faq-content">
+            Something small enough to escape casual notice.
+          </div>
+          Something small enough to escape casual notice.
+        </details>
+        <p>stel ons je vragen die je niet in de FAQ vond</p>
+        <div class="faq-question-box">
+          <input type="text" name="faq-question" size="30" required />
+          <input
+            class="button"
+            type="submit"
+            name="faq-question"
+            value="Submit"
+          />
+        </div>
+      </form>
+    </div>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+      <div class="footer__container bd-grid">
+        <div class="footer__content">
+          <a href="#Home" class="footer__logo">TheElderWand</a>
+          <span class="footer__description">Media pages</span>
+          <div>
+            <a href="#" class="footer__social"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="#" class="footer__social"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="#" class="footer__social"
+              ><i class="bx bxl-twitter"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Informatie</h3>
+          <ul>
+            <li>
+              <a href="index.html" target="_blank" class="footer__link"
+                >TheElderWand</a
+              >
+            </li>
+            <li><a href="#" class="footer__link">Contacteer ons </a></li>
+            <li><a href="#" class="footer__link">Privacy policy</a></li>
+            <li><a href="#" class="footer__link">Terms of services</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Adress</h3>
+          <ul>
+            <li>België</li>
+            <li>Lange Nieuwstraat 101, 2000 Antwerpen</li>
+            <li>+(32)03 336 786</li>
+            <li>TheElderWand@Support.be</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="footer__copy">&#169; 2022 TheElderWand. All right reserved</p>
+    </footer>
+
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="/js/main.js"></script>
+  </body>
+</html>
