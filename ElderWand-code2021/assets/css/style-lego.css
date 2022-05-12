@@ -887,7 +887,7 @@ h1.zero:before {
 
 .Inloggen-h5 {
     color: var(--first-color);
-    margin-left: 35rem;
+    margin-left: 33rem;
 }
 
 .Border {
@@ -938,8 +938,37 @@ h1.zero:before {
     transition: .3s;
 }
 
-.inloggen {
-    margin-left: 47%;
+.inloggen-1 {
+    margin-left: 36%;
+    justify-self: center;
+    background-color: var(--first-color);
+    padding: .75rem 1rem;
+    color: #FFF;
+    border-radius: .5rem;
+}
+.inloggen-2 {
+    margin-left: 76px;
+    justify-self: center;
+    background-color: var(--first-color);
+    padding: .75rem 1rem;
+    color: #FFF;
+    border-radius: .5rem;
+}
+.account-aanmaken-h5{
+    color: var(--first-color);
+    margin-left: 33rem;
+    margin-top: 90px;
+}
+.button-registreer{
+    margin-left: 48%;
+    margin-top: 1rem;
+    justify-self: center;
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #FFF;
+    padding: .75rem 1rem;
+    border-radius: .5rem;
+    transition: .3s;
 }
 
 
@@ -956,7 +985,7 @@ h1.zero:before {
 
 .Contact-h5 {
     color: var(--first-color);
-    margin-left: 35rem;
+    margin-left: 36rem;
 }
 
 .Border {
@@ -979,7 +1008,7 @@ h1.zero:before {
     width: 50%;
     box-sizing: border-box;
     margin: 16px 0;
-    margin-left: 25rem;
+    margin-left: 24rem;
     border: 0;
     border-radius: 10px 10px 10px 10px;
     background: rgb(218, 180, 124);
@@ -991,7 +1020,15 @@ h1.zero:before {
 }
 
 .button-contact {
-    text-align: center;
+    margin-left: 48%;
+    margin-top: 1rem;
+    justify-self: center;
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #FFF;
+    padding: .75rem 1rem;
+    border-radius: .5rem;
+    transition: .3s;
 }
 
 
@@ -1010,7 +1047,7 @@ h1.zero:before {
 
 .faq-h5 {
     color: var(--first-color);
-    margin-left: 35rem;
+    text-align: center;
 }
 
 .Border {

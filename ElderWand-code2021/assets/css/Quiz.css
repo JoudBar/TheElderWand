@@ -71,18 +71,22 @@ button:focus {
     outline: none;
     background-color: #15de0e;
 }
-/* SCORE BUTTONS*/
-.quit-button , .retry-button{
-    margin-top: 15px;
-    border-radius: 10px 10px 10px 10px;
-}
-.quit-button{
-    margin-left: 15px;
-}
+
 .quiz-score{
     text-align: center;
 }
 .buttons-score{
     display: flex;
-    width: 35rem;
+    margin-left: 10rem;
+    margin-top: 30px;
+}
+.quit-button{
+    padding: 10px;
+    margin-left: 40px;
+    border-radius: 15px;
+}
+.retry-button{
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 15px;
 }
