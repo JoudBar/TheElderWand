@@ -36,6 +36,9 @@ h2 {
     margin: 0;
     color: #048654;
 }
+h3 {
+    color: black;
+}
 
 ul {
     list-style-type: none;
@@ -49,6 +52,7 @@ ul li {
 
 ul li label {
     cursor: pointer;
+    color: black;
 }
 
 button {
