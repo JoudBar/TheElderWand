@@ -325,7 +325,6 @@ img {
     color: #FFF;
     padding: .75rem 1rem;
     border-radius: .5rem;
-    border: none;
     transition: .3s;
 }
 
@@ -938,18 +937,6 @@ h1.zero:before {
     border-radius: .5rem;
     transition: .3s;
 }
-.button-account-aanmaken {
-    margin-left: 49%;
-    margin-top: 1rem;
-    justify-self: center;
-    display: inline-block;
-    background-color: var(--first-color);
-    color: #FFF;
-    padding: .75rem 1rem;
-    border-radius: .5rem;
-    border: none;
-    transition: .3s;
-}
 
 .inloggen-1 {
     margin-left: 36%;
@@ -969,11 +956,11 @@ h1.zero:before {
 }
 .account-aanmaken-h5{
     color: var(--first-color);
-    margin-left: 38rem;
+    margin-left: 40rem;
     margin-top: 90px;
 }
 .button-registreer{
-    margin-left: 48%;
+    margin-left: 47%;
     margin-top: 1rem;
     justify-self: center;
     display: inline-block;
@@ -1108,10 +1095,6 @@ h1.zero:before {
     outline: none;
     color: rgb(0, 0, 0);
     transition: 0, 3s;
-}
-a:visited { 
-    text-decoration: none; 
-    color: white; 
 }
 
 .faq-question-box {
