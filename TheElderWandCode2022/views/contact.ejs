@@ -26,11 +26,11 @@
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="TheOne.html" class="nav__link active-link">Home</a></li>
-                        <li class="nav__item"><a href="personages.html" class="nav__link">Personages</a></li>
-                        <li class="nav__item"><a href="#" target="_blank" class="nav__link">FAQ</a></li>
-                        <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
-                        <li class="nav__item"><a href="inloggen.html" class="nav__link">Inloggen</a></li>
+                        <li class="nav__item"><a href="TheOne.ejs" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="personages.ejs" class="nav__link">Personages</a></li>
+                        <li class="nav__item"><a href="faq.ejs" target="_blank" class="nav__link">FAQ</a></li>
+                        <li class="nav__item"><a href="contact.ejs" class="nav__link">Contact</a></li>
+                        <li class="nav__item"><a href="login.ejs" class="nav__link">Inloggen</a></li>
 
                         <!--========== VOOR DE THEMA TE VERANDEREN DARK/LIGHT ==========-->
                         <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
@@ -47,13 +47,13 @@
         <!--========== CONTACT ==========-->
         <div class="Contact-section">
             <h5 class="Contact-h5" >Neem contact op</h5>
-            <form class="Contact-form" action="index.html" method="post">
-                <input type="text" class="contact-from-text" placeholder="Naam">
-                <input type="email" class="contact-from-text" placeholder="E-mail">
-                <input type="text" class="contact-from-text" placeholder="Telefoon nummer">
-                <textarea class="contact-from-text" placeholder="Uw bericht"></textarea>
+            <form class="Contact-form" action="/contact" method="post">
+                <input type="text" name="name" class="contact-from-text" placeholder="Naam">
+                <input type="email"  name ="email" class="contact-from-text" placeholder="E-mail">
+                <input type="test" name="subject"  class="contact-from-text" placeholder="Onderwerp">
+                <textarea  name="message" class="contact-from-text" placeholder="Uw bericht"></textarea>
+                <button type="submit" class="button">Zenden</button>
                 
-                <a class="button" href="mailto:example@gmail.com">Zenden</a>
             </form>
         </div>
 
