@@ -1,0 +1,46 @@
+<%- include('partials/header.ejs'); %>
+<link rel="stylesheet" href="/css/quizeCss.css" />
+
+
+    <!--========== Quiz ==========-->
+
+    <div class="quiz-container" id="quiz">
+      <form action="/check" method="post">
+      <div class="quiz-header">
+        <h2 id="question"><%- paginas[index].vraag %> </h2>
+        <h2 id="question">[<%- paginas[index].name %>] </h2>
+        <ul id="list-financial">
+          <h3 id="character-feeld"></h3>
+          <li id="awnsers-container">
+            <input type="radio" name="awnser" id="a" class="awnser"
+            value="<%= paginas[index].opties[0] %>" />
+            <label for="a" id="a_text"><%= paginas[index].opties[0] %></label>
+          </li>
+
+          <li>
+            <input type="radio" name="awnser" id="b" class="awnser" value="<%= paginas[index].opties[1] %>" />
+            <label for="b" id="b_text"><%= paginas[index].opties[1] %></label>
+          </li>
+
+          <li>
+            <input type="radio" name="awnser" id="c" class="awnser" 
+            value="<%= paginas[index].opties[2] %>"/>
+            <label for="c" id="c_text"><%= paginas[index].opties[2] %></label>
+          </li>
+
+          <li>
+            <input type="radio" name="awnser" id="d" class="awnser"
+            value="<%= paginas[index].opties[3] %>" />
+            <label for="d" id="d_text"><%= paginas[index].opties[3] %></label>
+          </li>
+          <br />
+        </ul>
+      </div>
+      <input type="submit" id="submit" value="volgende"></input>
+    </form>
+    </div>
+
+    <!--========== MAIN JS ==========-->
+<script src="/js/main.js"></script>
+</body>
+</html>

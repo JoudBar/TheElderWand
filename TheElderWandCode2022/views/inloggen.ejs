@@ -1,0 +1,21 @@
+<%- include('partials/header.ejs'); %>
+
+<!--========== INLOGGEN ==========-->
+<div class="Inloggen-section">
+  <h5 class="Inloggen-h5">Log in met je e-mail adres</h5>
+  <form class="Inloggen-form" action="index.html" method="post">
+    <input
+      type="email"
+      class="inloggen-from-text"
+      placeholder="username/E-mail adress"
+    />
+    <input type="text" class="inloggen-from-text" placeholder="Wachtwoord" />
+    <a class="button-login" href="http://localhost:3000/login">Log in</a>
+  </form>
+  <!--========== Password vergeten ==========-->
+  <a class="inloggen" href="http://localhost:3000/login">Wachtwoord vergeten</a>
+  <a class="inloggen" href="http://localhost:3000/account-aanmaken"
+    >Account aanmaken</a
+  >
+</div>
+<%- include('partials/footer.ejs'); %>

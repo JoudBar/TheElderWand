@@ -1,0 +1,20 @@
+<%- include('partials/header.ejs'); %>
+
+<!--========== register ==========-->
+<div class="Account-section">
+  <h5 class="Account-h5">Maak een account aan</h5>
+  <form action="/register" method="POST">
+    <input type="text" id="name" name="name" placeholder="Naam" required />
+    <input type="email" id="email" name="email" placeholder="Email" required />
+    <input
+      type="password"
+      id="password"
+      name="password"
+      placeholder="Wachtwoord"
+      required
+    />
+    <button type="submit">Register</button>
+  </form>
+</div>
+
+<%- include('partials/footer.ejs'); %>

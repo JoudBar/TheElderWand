@@ -1,0 +1,60 @@
+<%- include('partials/header.ejs'); %>
+<link rel="stylesheet" href="/css/quizeCss.css" />
+
+
+    <!--========== Quiz ==========-->
+
+    <div class="quiz-container" id="quiz">
+      <form action="/startQuiz" method="post">
+        <div class="quiz-header">
+          <div>
+            <p>Wat is je naam</p>
+            <input type="string" name="username" required />
+          </div>
+          <div>
+            <p>Hoeveel vragen wil je</p>
+            <input
+              type="number"
+              name="lengte"
+              step="1"
+              value="5"
+              min="5"
+              max="40"
+              required
+            />
+          </div>
+          <div>
+            <p>Wat voor soort quiz wil je doen</p>
+
+            <input
+              type="radio"
+              name="soortQuiz"
+              id="quoteinput"
+              value="quote"
+            />
+            <label for="quote">quote</label><br />
+            <input
+              type="radio"
+              name="soortQuiz"
+              id="financialinput"
+              value="financial"
+            />
+            <label for="financial">financial</label><br />
+            <input
+              type="radio"
+              name="soortQuiz"
+              id="chapterinput"
+              value="chapter"
+            />
+            <label for="chapter">chapter</label><br />
+          </div>
+        </div>
+        <input id="submit" type="submit" value="start quiz" />
+      </form>
+      <!-- <button id="submit" type="submit">start quiz</button> -->
+    </div>
+
+    <!--========== MAIN JS ==========-->
+<script src="/js/main.js"></script>
+</body>
+</html>

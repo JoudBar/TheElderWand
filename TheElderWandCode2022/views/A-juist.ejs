@@ -1,0 +1,25 @@
+<%- include('partials/header.ejs'); %>
+<link rel="stylesheet" href="/css/quizeCss.css" />
+
+
+    <!--========== Quiz ==========-->
+
+    <div  id="juist-fout">
+        <form id="form-juisfout" action="/nextQuestion" method="post">
+            <div class="juist-fout" id="juist">
+                <h1 class="text-juistfout">Juist!!</h1>
+            </div>
+            <div class="quiz-score">
+              <h1>score: <%= score %></h1>
+            </div>
+            <div class="button-juistfout">
+              <input type="submit" id="submit" value="volgende"></input>
+            </div>
+            
+        </form>
+    </div>
+
+   <!--========== MAIN JS ==========-->
+<script src="/js/main.js"></script>
+</body>
+</html>

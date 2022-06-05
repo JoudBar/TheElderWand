@@ -1,0 +1,26 @@
+<%- include('partials/header.ejs'); %>
+<link rel="stylesheet" href="/css/quizeCss.css" />
+
+
+    <!--========== Quiz ==========-->
+
+    <div id="eindscore">
+      <div id="eindscore-container">
+        <div id="eindscore-score">
+          <h1>score: <%= score %></h1>
+        </div>
+        <div id="eindscore-buttons">
+          <div>
+            <a id="submit" href="http://localhost:3000">stoppen</a>
+          </div>
+          <div>
+            <a id="submit" href="http://localhost:3000/startQuiz"> opnieuw </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--========== MAIN JS ==========-->
+<script src="/js/main.js"></script>
+</body>
+</html>

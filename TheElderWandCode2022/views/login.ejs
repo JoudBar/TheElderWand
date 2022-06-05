@@ -1,0 +1,25 @@
+<%- include('partials/header.ejs'); %>
+
+<!--========== INLOGGEN ==========-->
+<div class="Inloggen-section">
+  <h5 class="Inloggen-h5">Log in met je e-mail adres</h5>
+  <form action="/login" method="post">
+    <input type="email" id="email" name="email" placeholder="email" required />
+    <input
+      type="password"
+      id="password"
+      name="password"
+      placeholder="Wachtwoord"
+      required
+    />
+
+    <button type="submit">Login</button>
+  </form>
+
+  <!--========== Password vergeten ==========-->
+  <a class="inloggen" href="#">Wachtwoord vergeten</a>
+  <a class="inloggen" href="register.ejs">Account aanmaken</a>
+</div>
+
+<!--========== FOOTER ==========-->
+<%- include('partials/footer.ejs'); %>

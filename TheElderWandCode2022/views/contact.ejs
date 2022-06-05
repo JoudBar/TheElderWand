@@ -1,0 +1,35 @@
+<%- include('partials/header.ejs'); %>
+
+<!--========== CONTACT ==========-->
+<div class="Contact-section">
+  <h5 class="Contact-h5">Neem contact op</h5>
+  <form class="Contact-form" action="/contact" method="post">
+    <input
+      type="text"
+      name="name"
+      class="contact-from-text"
+      placeholder="Naam"
+    />
+    <input
+      type="email"
+      name="email"
+      class="contact-from-text"
+      placeholder="E-mail"
+    />
+    <input
+      type="test"
+      name="subject"
+      class="contact-from-text"
+      placeholder="Onderwerp"
+    />
+    <textarea
+      name="message"
+      class="contact-from-text"
+      placeholder="Uw bericht"
+    ></textarea>
+    <button type="submit" class="button">Zenden</button>
+  </form>
+</div>
+
+<!--========== FOOTER ==========-->
+<%- include('partials/footer.ejs'); %>

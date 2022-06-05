@@ -1,0 +1,24 @@
+{
+  "name": "typescript_code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.29"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.7",
+    "express": "^4.18.0",
+    "express-session": "^1.17.3",
+    "mongodb": "^4.5.0",
+    "nodemailer": "^6.7.5"
+  }
+}

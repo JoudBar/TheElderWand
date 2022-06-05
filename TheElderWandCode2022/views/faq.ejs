@@ -1,0 +1,45 @@
+<%- include('partials/header.ejs'); %>
+
+<!--========== FAQ ==========-->
+<div class="faq-section">
+  <h5 class="faq-h5">FAQ</h5>
+  <form class="faq-form" action="index.html" method="post">
+    <details class="faq-from-text">
+      <summary>how to start the quize</summary>
+      <div class="faq-content">
+        go to the homepage en there will be a button to start the quize. ore
+        <a href="http://localhost:3000/quize">click here</a>.
+      </div>
+    </details>
+    <details class="faq-from-text">
+      <summary>how do i change licht/dark mode</summary>
+      <div class="faq-content">
+        in the upper light corner there is an icon of a moon or a sun depends in
+        what mode it is.
+        <i class="bx bx-moon change-theme" id="theme-button"></i>
+      </div>
+    </details>
+    <details class="faq-from-text">
+      <summary>how to start the quize</summary>
+      <div class="faq-content">
+        go to the homepage en there will be a button to start the quize. ore
+        <a href="http://localhost:3000/quize">click here</a>.
+      </div>
+    </details>
+    <details class="faq-from-text">
+      <summary>Details</summary>
+      <div class="faq-content">
+        Something small enough to escape casual notice.
+      </div>
+      Something small enough to escape casual notice.
+    </details>
+    <p>stel ons je vragen die je niet in de FAQ vond</p>
+    <div class="faq-question-box">
+      <input type="text" name="faq-question" size="30" required />
+      <input class="button" type="submit" name="faq-question" value="Submit" />
+    </div>
+  </form>
+</div>
+
+<!--========== FOOTER ==========-->
+<%- include('partials/footer.ejs'); %>

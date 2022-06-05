@@ -1,0 +1,172 @@
+/*===== GOOGLE FONTS =====*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/* DE QUIZ CSS*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-self: stretch;
+
+  background-color: rgb(218, 180, 124);
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+  margin-top: 5em;
+  width: 60em;
+}
+.quiz-container:first-child {
+  flex-grow: 1;
+}
+#question {
+  font-size: large;
+}
+
+.quiz-header {
+  padding: 0.9rem;
+}
+
+#submit {
+  border-radius: 10px;
+}
+
+h2 {
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+  color: #048654;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+ul li label {
+  cursor: pointer;
+}
+
+#submit {
+  background-color: #048654;
+  color: white;
+  border: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-family: "Poppins", sans-serif;
+  padding: 1.3rem;
+}
+
+#submit:hover {
+  background-color: #025133;
+}
+
+#submit:focus {
+  outline: none;
+  background-color: #15de0e;
+}
+
+.quiz-score {
+  text-align: center;
+}
+.buttons-score {
+  display: flex;
+  margin-left: 10rem;
+  margin-top: 30px;
+}
+.quit-button {
+  padding: 10px;
+  margin-left: 40px;
+  border-radius: 15px;
+}
+.retry-button {
+  margin-left: 30px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#list-financial {
+  display: flex;
+  justify-content: space-around;
+}
+
+#juist-fout {
+  display: flex;
+  background-color: rgb(218, 180, 124);
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+  margin-top: 5em;
+  height: 20em;
+}
+
+.juist-fout {
+  /* background-color: #2bdd98; */
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+  align-self: flex-start;
+  width: 60em;
+}
+#juist {
+  background-color: #2bdd98;
+}
+#fout {
+  background-color: crimson;
+}
+.text-juistfout {
+  text-align: center;
+}
+
+#form-juisfout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#eindscore {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(218, 180, 124);
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+  margin-top: 5em;
+  width: 60%;
+  height: 20rem;
+}
+#eindscore-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#eindscore-score {
+  align-self: center;
+}
+#eindscore-buttons {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+}
+
+.buttons-juistfout {
+  align-self: flex-end;
+}
