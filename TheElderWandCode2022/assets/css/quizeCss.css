@@ -85,8 +85,11 @@ ul li label {
   background-color: #15de0e;
 }
 
-.quiz-score {
-  text-align: center;
+.quiz-score h1 {
+  margin-left: 27rem;
+}
+.eind-score h1 {
+  margin-left: 70px;
 }
 .buttons-score {
   display: flex;
@@ -132,7 +135,10 @@ ul li label {
   background-color: crimson;
 }
 .text-juistfout {
-  text-align: center;
+  margin-left: 27rem;
+}
+.button-opnieuw {
+  margin-left: 20px;
 }
 
 #form-juisfout {
@@ -169,4 +175,30 @@ ul li label {
 
 .buttons-juistfout {
   align-self: flex-end;
+}
+.quiz-vraag-naam , .quiz-vraag-vragen , .soort-quiz {
+  text-align: center;
+}
+.quiz-vraag-vragen , .soort-quiz {
+  margin-top: 10px;
+}
+.input-naam {
+  margin-left: 24rem;
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.input-hoeveel-vragen {
+  margin-left: 27rem;
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.antwoord-quote {
+  text-align: center;
+}
+.soort-quiz-antwoord {
+  display: flex;
+  margin-left: 22rem;
+  margin-top: 10px;
 }

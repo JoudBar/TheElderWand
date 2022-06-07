@@ -312,6 +312,14 @@ img {
   border-radius: 0.5rem;
   transition: 0.3s;
 }
+.button-contact {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
 
 .button:hover {
   background-color: var(--first-color-alt);
@@ -548,6 +556,9 @@ img {
   }
   .nav {
     height: calc(var(--header-height) + 1.5rem);
+  }
+  .nav__item a {
+    color : rgb(218, 180, 124);
   }
   .nav__list {
     display: flex;
