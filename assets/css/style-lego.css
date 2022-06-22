@@ -910,7 +910,7 @@ h1.zero:before {
 }
 
 .button-login {
-  margin-left: 50%;
+  margin-left: 47%;
   margin-top: 1rem;
   justify-self: center;
   display: inline-block;
@@ -943,7 +943,7 @@ h1.zero:before {
   margin-top: 90px;
 }
 .button-registreer {
-  margin-left: 47%;
+  margin-left: 1%;
   margin-top: 1rem;
   justify-self: center;
   display: inline-block;
@@ -952,6 +952,60 @@ h1.zero:before {
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   transition: 0.3s;
+}
+.button-registreer-form {
+  margin-left: 49%;
+  margin-top: 1rem;
+  justify-self: center;
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+.register-form-from {
+
+  max-width: 600px;
+
+  margin: auto;
+
+  padding: 0 10px;
+
+  overflow: hidden;
+
+}
+
+
+
+.register-from-text {
+
+  display: block;
+
+  width: 50%;
+
+  box-sizing: border-box;
+
+  margin: 16px 0;
+
+  margin-left: 25rem;
+
+  border: 0;
+
+  border-radius: 10px 10px 10px 10px;
+
+  background: rgb(218, 180, 124);
+
+  padding: 20px 40px;
+
+  outline: none;
+
+  color: #000000;
+
+  transition: 0, 3s;
+
+  text-align: center;
+
 }
 
 /*CONTACT*/

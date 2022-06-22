@@ -1,21 +1,46 @@
 <%- include('partials/header.ejs'); %>
 
+
+
 <!--========== INLOGGEN ==========-->
+
 <div class="Inloggen-section">
+
   <h5 class="Inloggen-h5">Log in met je e-mail adres</h5>
-  <form action="/login" method="post">
-    <input type="email" id="email" name="email" placeholder="email" required />
+
+  <form action="/login" method="post" class="Inloggen-form">
+
+    <input type="email" id="email" name="email" placeholder="email" class="inloggen-from-text" required />
+
     <input
+
       type="password"
+
       id="password"
+
       name="password"
+
       placeholder="Wachtwoord"
+
+      class="inloggen-from-text"
+
       required
+
     />
 
-    <button type="submit">Login</button>
+
+
+    <button type="submit" class="button-login">Login</button>
+    <a class="button-registreer" href="register">registreer</a>
+
+   
+
   </form>
+
 </div>
 
+
+
 <!--========== FOOTER ==========-->
+
 <%- include('partials/footer.ejs'); %>

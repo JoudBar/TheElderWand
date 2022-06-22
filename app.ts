@@ -187,7 +187,7 @@ app.post("/login", async (req: any, res: any) => {
   console.log(3);
   try {
     if (await bcrypt.compare(req.body.password, user.password)) {
-      res.redirect("/");
+      res.redirect("TheOne");
     } else {
       res.send("Password incorrect");
     }
@@ -329,29 +329,18 @@ app.get("/personages", (req: any, res: any) => {
   res.render("personages");
 });
 
-app.get("/inloggen", (req: any, res: any) => {
-  res.render("inloggen");
-});
-
 app.get("/contact", (req: any, res: any) => {
   res.render("contact");
 });
 
-app.get("/catalogus", (req: any, res: any) => {
+app.get("/", (req: any, res: any) => {
   res.render("catalogus");
 });
-app.get("/account-aanmaken", (req: any, res: any) => {
-  res.render("account-aanmaken");
-});
 
-app.get("/", (req: any, res: any) => {
+app.get("/TheOne", (req: any, res: any) => {
   res.render("TheOne");
 });
 
 app.listen(app.get("port"), () =>
   console.log("[server] http://localhost:" + app.get("port"))
 );
-
-//test heroku
-app.set('port', (process.env.PORT || 5000));
-app.listen(app.get('port'));
